@@ -1,0 +1,43 @@
+$lightgreen: #EAFEEC;
+$lightergreen: #F1FFF8;
+$Roboto: 'Roboto', sans-serif;
+$headtext: #212032;
+$maintext: #376474;
+$lighttext: #204140;
+$sometext: #325058;
+$red: #F72A2A;
+$green: #38CEA8;
+$white: #FFF;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5.5vw;
+    background: $lightgreen;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    span{
+        font-family: $Roboto;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        b{
+            font-weight: 700;
+        }
+    }
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}

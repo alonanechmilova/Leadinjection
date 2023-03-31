@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5.5vw;
+  background: #EAFEEC;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+.logo span b {
+  font-weight: 700;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}/*# sourceMappingURL=style.css.map */
