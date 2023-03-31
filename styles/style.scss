@@ -20,6 +20,7 @@ $white: #FFF;
     align-items: center;
     padding: 20px 5.5vw;
     background: $lightgreen;
+
 }
 
 .logo{
@@ -40,5 +41,20 @@ $white: #FFF;
     display: flex;
     align-items: center;
     gap: 1vw;
-   
+    .socials-item{
+    list-style-type: none;
+    }
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
 }
